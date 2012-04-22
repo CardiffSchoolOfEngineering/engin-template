@@ -1,0 +1,39 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* IE6 css fixer v0.95: Thu, 15 Dec 2011 00:23:47 +0100 */
+
+/* ============================================= */
+/* safe settings                                 */
+
+/* add display:inline to floated elements */
+h3,
+div.moduletable_search,
+span.logo,
+div.floatLeftTop,
+div#teelogo,
+div#left,div#right,
+div#body,
+div#body_3col,
+div.top_return,
+.externallink,
+div.centre-name,
+ul.actions,
+ul.actions li,
+h2,,.newsevents div#main div#page div#right div.moduletable h3,
+div.item-page p,
+div.item-page blockquote,
+div#schoolimage,
+#topmenu,
+.blognewsevents,
+.blognewsevents div.items-row div.item dl.article-info,
+.blognewsevents div.items-row,.blognewsevents div.items-row div.item p,
+.newsevents div#main div#page div#right,
+.viewall,
+.archive ul li,
+.blog div div,
+.pagination,
+.pagination span,.pagination strong a,.pagination a {display:inline;}
+
+/* add overflow:visible to (submit) buttons */
+ input, button {overflow:visible;}
