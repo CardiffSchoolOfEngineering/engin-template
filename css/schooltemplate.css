@@ -8,6 +8,11 @@ body {
     line-height: 1.3em;
     margin: 0;
 }
+div#body {
+    float: left;
+    margin: 10px 10px 5px;
+    width: 593px;
+}
 h1 {
     color: #026D6D;
     float: left;
