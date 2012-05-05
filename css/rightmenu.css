@@ -1,0 +1,75 @@
+ div#right div.moduletable_menu ul.menu {
+	list-style-type: none;
+	margin: 0 0 0 5px;
+	padding: 0;
+}
+
+div#right div.moduletable_menu ul.menu li#current a {
+	background-color: #F0F6F6;
+	background-image: url("../images/arrow_menu_current.gif");
+	background-position: 5px 7px;
+	background-repeat: no-repeat;
+	border: 1px solid #F0F6F6;
+	color: #990033;
+	display: block;
+	margin-top: 1px;
+	padding: 3px 0 3px 10px;
+}
+div#right div.moduletable_menu ul.menu li a {
+	border: medium none;
+	color: #2A5F50;
+	font-size: 11px;
+	margin-top: 1px;
+	padding: 0;
+}
+
+div#right div.moduletable_menu ul.menu li a:hover {
+	border: medium none;
+	color: #4A8A8A;
+	text-decoration: underline;
+}
+div#right div.moduletable_menu ul.menu li.active.parent a, 
+div#right div.moduletable_menu ul.menu li#current.active.parent a {
+	color: #2A5F50;
+	display: block;
+	font-size: 11px;
+	font-weight: normal;
+	margin-top: 1px;
+	padding: 0;
+}
+div#right div.moduletable_menu ul.menu li.active.parent a:hover {
+	text-decoration: underline;
+}
+div#right div.moduletable_menu ul.menu li.item1 a, 
+div#right div.moduletable_menu ul.menu li#current.item1 a {
+	background-color: #4A8A8A;
+	background-image: url("../images/cu_menu_top_corner.gif");
+	background-position: right top;
+	background-repeat: no-repeat;
+	border: 0 none;
+	color: #FFFFFF;
+	display: block;
+	font-size: 11px;
+	font-weight: bold;
+}
+ 
+div#right div.moduletable_menu ul.menu li#current a:hover {
+	background-color: #FFFFFF;
+	border: 1px solid #4A8A8A;
+}
+div#right div.moduletable_menu ul.menu li.item1 a:hover, 
+div#right div.moduletable_menu ul.menu li#current.item1 a:hover {
+	background-color: #589E9E;
+}
+div#right div.moduletable_menu ul.menu li.active.parent ul li.active.parent ul li a, 
+div#right div.moduletable_menu ul.menu li.active.parent ul li#current.active.parent ul li a {
+	color: #2A5F50;
+	display: block;
+	margin-top: 0;
+}
+div#right div.moduletable_menu ul.menu li.active.parent ul, 
+div#right div.moduletable_menu ul.menu li#current.active.parent ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}

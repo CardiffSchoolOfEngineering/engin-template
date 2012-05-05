@@ -18,6 +18,7 @@ define('_BF_VARIANT', $templateparams->get('variant') );
 
 	<link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/system/css/system.css" type="text/css" />
 	<link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/system/css/general.css" type="text/css" />
+	
     <?php $link = '<link rel="stylesheet" href="%s/templates/%s/css/%stemplate.css" type="text/css" />';
        echo sprintf($link, 
        $this->baseurl,
@@ -29,6 +30,7 @@ define('_BF_VARIANT', $templateparams->get('variant') );
 	<?php if($this->direction == 'rtl') : ?>
 	<link href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/css/template_rtl.css" rel="stylesheet" type="text/css" />
 	<?php endif; ?>
+	<link rel="stylesheet" href="/templates/cardiffgeneric/css/leftmenu.css" type="text/css" />
 </head>
 <?php
 $menu =& JSite::getMenu();
