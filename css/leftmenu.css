@@ -138,12 +138,18 @@ div#left ul.menu li.active ul li ul li.active a {
 	padding: 1px 0px 1px 25px;
 	border: 1px solid white;
 }
-
+div#left ul.menu li.active ul li ul li a {
+	background: url("../images/arrow_menu.gif") no-repeat scroll 20px 5px white;
+	padding: 1px 0px 1px 25px;
+	border: 1px solid white;
+}
 div#left ul.menu li.active ul li ul li.current a {
 	background: url("../images/arrow_menu_current.gif") no-repeat scroll 20px 5px white;
 	padding: 1px 0px 1px 25px;
 	border: 1px solid white;
 }
+
+
 
 /* Level 4.1 Padding left */
 
