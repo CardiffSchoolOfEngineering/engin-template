@@ -23,7 +23,7 @@ h1 {
 	line-height: 22px;
 	margin: 0;
 	padding: 0;
-	width: 84%;
+	width: 100%;
 }
 
 h2 {
@@ -36,7 +36,7 @@ h2 {
 	line-height: 20px;
 	margin: 10px 0;
 	padding: 0;
-	width: 85%;
+	width: 100%;
 }
 
 .blog-featured h2 {
