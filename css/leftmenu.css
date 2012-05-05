@@ -35,8 +35,9 @@ div#left ul.menu li#current.active.parent ul {
 }
 
 /* Square corners */
-
-div#left ul.menu li:first-child ul li a  {
+div#left ul.menu li:first-child a, 
+div#left ul.menu li ul li:first-child a,
+div#left ul.menu li ul li:first-child ul li a  {
 	border-top-right-radius: 0;
 	background-color: #F0F6F6;
 	color: #2A5F50;
