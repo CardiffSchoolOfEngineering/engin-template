@@ -16,7 +16,9 @@ ul.menu li a {
 	margin-top: 1px;
 	padding: 3px 0 3px 10px;
 }
-
+ul.menu li.current a {
+	background: url("../images/arrow_menu_current.gif");
+	}
 ul.menu li.active.parent ul, 
 ul.menu li#current.active.parent ul{
 	list-style-type: none;
@@ -60,17 +62,19 @@ ul.menu li ul li ul li a {
 
 
 /* @group Currently Selected Menu Item */
+
 /* When 1.1 selected */
 ul.menu li.active a {
 	background: url("../images/arrow_menu.gif") no-repeat scroll 3px 7px #d9e9e9;
     padding: 3px 0px 3px 10px;
 }
-
 /* When 1.1 selected */
 ul.menu li.current a {
 	background: url("../images/arrow_menu_current.gif") no-repeat scroll 5px 7px #F0F6F6;
 	padding: 3px 0px 3px 12px;
+	color: #903;
 }
+
 
 	
 /* Reset 1.1 when 2.1 selected */
@@ -102,7 +106,7 @@ ul.menu li.deeper ul li.current ul li a{
 		padding: 3px 0px 3px 25px;
 }
 
-/* Level 3.1 all the time */
+/* Level 3.1 selected */
 ul.menu li.active ul li ul li.current a,
 ul.menu li        ul li ul li.parent ul li.current a
 {
@@ -110,11 +114,24 @@ ul.menu li        ul li ul li.parent ul li.current a
     padding: 3px 0px 3px 25px;
 }
 
+/* Reset 2.1 color when 3.1 is selected (2.1 being the parent of 3.1) */
+ul.menu li.active ul li a{
+		color: #2A5F50;
+		background: url("../images/arrow_menu.gif") no-repeat scroll 15px 7px #F0F6F6;
+		 padding: 3px 0px 3px 20px;
+}
+
+/* Level 4.1 Padding left */
 /* Reset 4.1 color when 3.1 is selected (3.1 being the parent of 4.1) */
 ul.menu li.deeper  ul li ul li.current ul li a{
 		color: #2A5F50;
-		background: url("../images/arrow_menu.gif") no-repeat scroll 20px 7px white;
+		background: url("../images/arrow_menu.gif") no-repeat scroll 25px 7px white;
+		 padding: 3px 0px 3px 30px;
 }
+
+
+
+
 
 /* @end */
 
