@@ -61,10 +61,15 @@ ul.menu li ul li ul li a {
 
 
 /* @group Currently Selected Menu Item */
-/* When 1.1 selected */
-ul.menu li.active.current a {
-	background: url("../images/arrow_menu_current.gif") no-repeat scroll 3px 7px #D9E9E9;
+/* When 1.1 NOT selected */
+ul.menu li.active a {
+	background: url("../images/arrow_menu.gif") no-repeat scroll 3px 7px #4A8A8A;
     padding: 3px 0px 3px 10px;
+}
+
+/* When 1.1 selected */
+ul.menu li.active.currernt a {
+	/* DONT DO ANYTHING */
 }
 
 	
