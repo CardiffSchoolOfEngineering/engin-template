@@ -300,7 +300,7 @@ div.centre-name {
 	padding: 10px 10px 0 0;
 }
 
-div.item-page ul.actions {
+ul.actions {
 	float: right;
 	list-style: none outside none;
 	margin: 0;
@@ -308,7 +308,7 @@ div.item-page ul.actions {
 	width: 15%;
 }
 
-div.item-page ul.actions li {
+ul.actions li {
 	float: right;
 	margin-left: 10px;
 }

@@ -2,13 +2,13 @@
 
 /* Move everything to the left and set the padding */
 
-ul.menu {
+div#left ul.menu {
 	list-style-type: none;
 	margin: 0 0 0 5px;
 	padding: 0;
 }
 
-ul.menu li a {
+div#left ul.menu li a {
 	background-color: #D9E9E9;
 	border: 1px solid #D9E9E9;
 	color: #2A5F50;
@@ -19,16 +19,16 @@ ul.menu li a {
 	font-weight: bold;
 }
 
-ul.menu li ul li a {
+div#left ul.menu li ul li a {
 	font-weight: normal;
 }
 
-ul.menu li.current a {
+div#left ul.menu li.current a {
 	background: url("../images/arrow_menu_current.gif");
 }
 
-ul.menu li.active.parent ul, 
-ul.menu li#current.active.parent ul {
+div#left ul.menu li.active.parent ul, 
+div#left ul.menu li#current.active.parent ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
@@ -36,7 +36,7 @@ ul.menu li#current.active.parent ul {
 
 /* Square corners */
 
-ul.menu ul li:first-child a {
+div#left ul.menu ul li:first-child a {
 	border-top-right-radius: 0;
 	background-color: #F0F6F6;
 	color: #2A5F50;
@@ -44,7 +44,7 @@ ul.menu ul li:first-child a {
 
 /* Level 2.1 3.1 */
 
-ul.menu li ul li a {
+div#left ul.menu li ul li a {
 	background-color: #D9E9E9;
 	border: 1px solid #D9E9E9;
 	color: #2A5F50;
@@ -54,13 +54,13 @@ ul.menu li ul li a {
 
 /* Level 2.1 Padding left */
 
-ul.menu li ul li a {
+div#left ul.menu li ul li a {
 	padding: 3px 0px 3px 20px;
 }
 
 /* Level 3.1 Padding left */
 
-ul.menu li ul li ul li a {
+div#left ul.menu li ul li ul li a {
 	padding: 3px 0px 3px 20px;
 }
 
@@ -70,14 +70,14 @@ ul.menu li ul li ul li a {
 
 /* When 1.1 selected */
 
-ul.menu li.active a {
+div#left ul.menu li.active a {
 	background: url("../images/arrow_menu.gif") no-repeat scroll 3px 7px #d9e9e9;
 	padding: 3px 0px 3px 10px;
 }
 
 /* When 1.1 selected */
 
-ul.menu li.current a {
+div#left ul.menu li.current a {
 	background: url("../images/arrow_menu_current.gif") no-repeat scroll 5px 7px #F0F6F6;
 	padding: 3px 0px 3px 12px;
 	color: #903;
@@ -85,14 +85,14 @@ ul.menu li.current a {
 
 /* Reset 1.1 when 2.1 selected */
 
-ul.menu li.active.deeper.parent a {
+div#left ul.menu li.active.deeper.parent a {
 	
 }
 
 /* When 2.1 selected */
 
-ul.menu li.active ul li.current a,
-ul.menu li        ul li.parent ul li.current a {
+div#left ul.menu li.active ul li.current a,
+div#left ul.menu li        ul li.parent ul li.current a {
 	color: #903;
 	background: url("../images/arrow_menu_current.gif") no-repeat scroll 15px 7px #F0F6F6;
 	padding: 3px 0px 3px 20px;
@@ -100,7 +100,7 @@ ul.menu li        ul li.parent ul li.current a {
 
 /* Reset 2.1 color when 1.1 is selected (1.1 being the parent of 2.1) */
 
-ul.menu li.current ul li a {
+div#left ul.menu li.current ul li a {
 	color: #2A5F50;
 	background: url("../images/arrow_menu.gif") no-repeat scroll 15px 7px #F0F6F6;
 	padding: 3px 0px 3px 20px;
@@ -108,7 +108,7 @@ ul.menu li.current ul li a {
 
 /* Reset 3.1 color when 2.1 is selected (2.1 being the parent of 3.1) */
 
-ul.menu li.deeper ul li.current ul li a {
+div#left ul.menu li.deeper ul li.current ul li a {
 	color: #2A5F50;
 	background: url("../images/arrow_menu.gif") no-repeat scroll  20px 7px white;
 	padding: 3px 0px 3px 25px;
@@ -117,7 +117,7 @@ ul.menu li.deeper ul li.current ul li a {
 
 /* Level 3.1 selected */
 
-ul.menu li.active ul li ul li.current a {
+div#left ul.menu li.active ul li ul li.current a {
 	background: url("../images/arrow_menu_current.gif") no-repeat scroll 20px 7px white;
 	padding: 3px 0px 3px 25px;
 	border: 1px solid white;
@@ -125,7 +125,7 @@ ul.menu li.active ul li ul li.current a {
 
 /* Reset 2.1 color when 3.1 is selected (2.1 being the parent of 3.1) */
 
-ul.menu li.active ul li a {
+div#left ul.menu li.active ul li a {
 	color: #2A5F50;
 	background: url("../images/arrow_menu.gif") no-repeat scroll 15px 7px #F0F6F6;
 	padding: 3px 0px 3px 20px;
@@ -133,15 +133,15 @@ ul.menu li.active ul li a {
 
 /* Reset 3.1 (& when 4.1 selected) */
 
-ul.menu li.active ul li ul li.active a {
-	background: url("../images/arrow_menu.gif") no-repeat scroll 20px 7px white;
-	padding: 3px 0px 3px 25px;
+div#left ul.menu li.active ul li ul li.active a {
+	background: url("../images/arrow_menu.gif") no-repeat scroll 20px 5px white;
+	padding: 1px 0px 1px 25px;
 	border: 1px solid white;
 }
 
-ul.menu li.active ul li ul li.current a {
-	background: url("../images/arrow_menu_current.gif") no-repeat scroll 20px 7px white;
-	padding: 3px 0px 3px 25px;
+div#left ul.menu li.active ul li ul li.current a {
+	background: url("../images/arrow_menu_current.gif") no-repeat scroll 20px 5px white;
+	padding: 1px 0px 1px 25px;
 	border: 1px solid white;
 }
 
@@ -149,22 +149,22 @@ ul.menu li.active ul li ul li.current a {
 
 /* Reset 4.1 color when 3.1 is selected (3.1 being the parent of 4.1) */
 
-ul.menu li.deeper  ul li ul li.active ul li a {
+div#left ul.menu li.deeper  ul li ul li.active ul li a {
 	color: #2A5F50;
-	background: url("../images/arrow_menu.gif") no-repeat scroll 25px 7px white;
-	padding: 3px 0px 3px 30px;
+	background: url("../images/arrow_menu.gif") no-repeat scroll 25px 3px white;
+	padding: 0px 0px 0px 30px;
 	border: 1px solid white;
 }
 
-ul.menu li.deeper  ul li ul li.active ul li.current a {
+div#left ul.menu li.deeper  ul li ul li.active ul li.current a {
 	color: #903;
-	background: url("../images/arrow_menu_current.gif") no-repeat scroll 25px 7px white;
-	padding: 3px 0px 3px 30px;
+	background: url("../images/arrow_menu_current.gif") no-repeat scroll 25px 3px white;
+	padding: 0px 0px 0px 30px;
 }
 
 /* Reset 3.1 color when 4.1 is selected (4.1 being the parent of 3.1) */
 
-/*ul.menu li.deeper.active.parent ul li.deeper.active.parent ul li.deeper.active.parent ul li.deeper.active.parent a{
+/*div#left ul.menu li.deeper.active.parent ul li.deeper.active.parent ul li.deeper.active.parent ul li.deeper.active.parent a{
 		color: #2A5F50;
 		background: url("../images/arrow_menu.gif") no-repeat scroll  20px 7px white;
 		padding: 3px 0px 3px 25px;
@@ -173,13 +173,13 @@ ul.menu li.deeper  ul li ul li.active ul li.current a {
 
 /* @end */
 
-ul.menu li:first-child a {
+div#left ul.menu li:first-child a {
 	
 }
 
 /* @group  Top most menu item with curved right corner*/
 
-ul.menu li:first-child a {
+div#left ul.menu li:first-child a {
 	background: none;
 	background-color: #4A8A8A;
 	border-top-right-radius: 20px;
@@ -190,13 +190,12 @@ ul.menu li:first-child a {
 }
 /* @end */
 
-ul.me
-
-nu li.active ul li ul li.active a:hover,
-ul.menu li 						  a:hover,
-ul.menu li 			ul li 	      a:hover,
-ul.menu li.active 	ul li.current a:hover,
-ul.menu li 			ul li.parent  ul li.current a:hover {
+div#left ul.menu li.active ul li ul li.active a:hover,
+div#left ul.menu li 						  a:hover,
+div#left ul.menu li 			ul li 	      a:hover,
+div#left ul.menu li.active 	ul li.current a:hover,
+div#left ul.menu li 			ul li.parent  ul li.current a:hover,
+div#left div.moduletable_menu ul.menu li.active.parent ul li.active.parent ul li.current a:hover {
 	border: 1px solid #4A8A8A;
 	background-color: white;
 	color: #4A8A8A;
