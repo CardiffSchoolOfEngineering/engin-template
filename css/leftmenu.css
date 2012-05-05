@@ -107,8 +107,7 @@ ul.menu li.deeper ul li.current ul li a{
 }
 
 /* Level 3.1 selected */
-ul.menu li.active ul li ul li.current a,
-ul.menu li        ul li ul li.parent ul li.current a
+ul.menu li.active ul li ul li.current a
 {
 	background: url("../images/arrow_menu_current.gif") no-repeat scroll 20px 7px white;
     padding: 3px 0px 3px 25px;
@@ -120,18 +119,39 @@ ul.menu li.active ul li a{
 		background: url("../images/arrow_menu.gif") no-repeat scroll 15px 7px #F0F6F6;
 		 padding: 3px 0px 3px 20px;
 }
+/* Reset 3.1 (& when 4.1 selected) */
+ul.menu li.active ul li ul li.active a {
+	background: url("../images/arrow_menu.gif") no-repeat scroll 25px 7px white;
+	 padding: 3px 0px 3px 30px;
+}
 
-/* Level 4.1 Padding left */
-/* Reset 4.1 color when 3.1 is selected (3.1 being the parent of 4.1) */
-ul.menu li.deeper  ul li ul li.current ul li a{
-		color: #2A5F50;
-		background: url("../images/arrow_menu.gif") no-repeat scroll 25px 7px white;
-		 padding: 3px 0px 3px 30px;
+ul.menu li.active ul li ul li.current a {
+	background: url("../images/arrow_menu_current.gif") no-repeat scroll 25px 7px white;
+	 padding: 3px 0px 3px 30px;
 }
 
 
+/* Level 4.1 Padding left */
+/* Reset 4.1 color when 3.1 is selected (3.1 being the parent of 4.1) */
+ul.menu li.deeper  ul li ul li.active ul li a{
+		color: #2A5F50;
+		background: url("../images/arrow_menu.gif") no-repeat scroll 30px 7px white;
+		 padding: 3px 0px 3px 35px;
+}
+ul.menu li.deeper  ul li ul li.active ul li.current a{
+		color: #903;
+		background: url("../images/arrow_menu_current.gif") no-repeat scroll 30px 7px white;
+		 padding: 3px 0px 3px 35px;
+}
 
 
+/* Reset 3.1 color when 4.1 is selected (4.1 being the parent of 3.1) */
+/*ul.menu li.deeper.active.parent ul li.deeper.active.parent ul li.deeper.active.parent ul li.deeper.active.parent a{
+		color: #2A5F50;
+		background: url("../images/arrow_menu.gif") no-repeat scroll  20px 7px white;
+		padding: 3px 0px 3px 25px;
+		
+}*/
 
 /* @end */
 
