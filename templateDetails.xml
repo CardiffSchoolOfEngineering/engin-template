@@ -49,6 +49,6 @@
 		</fields>
 	</config>
 	<updateservers>
-		<server type="template" priority="1" name="cardiffgeneric template Updates"><![CDATA[https://raw.github.com/CardiffSchoolOfEngineering/engin-template/master/extension.xml]]></server>
+		<server type="extension" priority="1" name="cardiffgeneric template Updates"><![CDATA[https://raw.github.com/CardiffSchoolOfEngineering/engin-template/master/extension.xml]]></server>
     </updateservers>
 </extension>

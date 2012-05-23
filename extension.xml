@@ -9,7 +9,7 @@
 		</downloads>
 		<targetplatform name="joomla" version="2.5"/>
 		<element>cardiffgeneric</element>
-		<type>template</type>
+		<type>extension</type>
 
 		<!-- DO NOT SPECIFY A FOLDER! #JoomlaBug! -->
 		<folder></folder>
