@@ -19,6 +19,7 @@
 		<filename>templateDetails.xml</filename>
 		<filename>favicon.ico</filename>
 		<filename>component.php</filename>
+		<filename>extension.xml</filename>
 	</files>
 	<positions>
 		<position>breadcrumbs</position>
@@ -47,4 +48,7 @@
 			</fieldset>
 		</fields>
 	</config>
+	<updateservers>
+		<server type="template" priority="1" name="cardiffgeneric template Updates"><![CDATA[https://raw.github.com/CardiffSchoolOfEngineering/engin-template/master/extension.xml]]></server>
+    </updateservers>
 </extension>

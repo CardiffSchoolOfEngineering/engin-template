@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<updates>
+	<update>
+		<name>cardiffgeneric</name>
+		<version>1.0</version>
+		<infourl title="Phil Taylor"><![CDATA[https://github.com/CardiffSchoolOfEngineering/engin-template]]></infourl>
+		<downloads>
+			<downloadurl type="full" format="zip"><![CDATA[https://github.com/downloads/CardiffSchoolOfEngineering/engin-template/cardiffgeneric_v1.0.zip]]></downloadurl>
+		</downloads>
+		<targetplatform name="joomla" version="2.5"/>
+		<element>cardiffgeneric</element>
+		<type>template</type>
+
+		<!-- DO NOT SPECIFY A FOLDER! #JoomlaBug! -->
+		<folder></folder>
+
+		<!-- This is converted as NULL in Joomla, another bug, but works. 0 !== NULL really!!! -->
+		<client>0</client>
+	</update>
+</updates>
