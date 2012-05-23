@@ -77,7 +77,11 @@ $class = $params->get( 'pageclass_sfx' );
 		<?php } ?>
 		<div class="centre-name">
         <?php if($templateparams->get('variant') == 'school') { ?><h2>Welcome to the</h2><?php } ?>
+<<<<<<< HEAD
             <a href="<?php echo JURI::Base(); ?>" title="<?php echo $app->getCfg('sitename'); ?>"><?php echo $app->getCfg('sitename'); ?></a> 
+=======
+            <a href="<?php echo JURI::Base(); ?>" title="<?php echo $app->getCfg('sitename'); ?>"><?php echo $app->getCfg('sitename'); ?></a>
+>>>>>>> c5c423e008966c6653d2b7487ce54f69e0587291
         </div>
 	</div>
     <?php if($templateparams->get('variant') == 'school') { ?>
