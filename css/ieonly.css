@@ -10,17 +10,14 @@
 h3,
 div.moduletable_search,
 span.logo,
-div.floatLeftTop,
-div#teelogo,
+
 div#left,div#right,
-div#body,
 div#body_3col,
 div.top_return,
-.externallink,
 div.centre-name,
 ul.actions,
 ul.actions li,
-h2,,.newsevents div#main div#page div#right div.moduletable h3,
+.newsevents div#main div#page div#right div.moduletable h3,
 div.item-page p,
 div.item-page blockquote,
 div#schoolimage,
@@ -37,3 +34,11 @@ div#schoolimage,
 
 /* add overflow:visible to (submit) buttons */
  input, button {overflow:visible;}
+ 
+div.centre-name {
+	margin-top: 10px;
+}
+#right {
+	margin-top: 15px;
+	
+}

@@ -92,6 +92,11 @@ $class = $params->get( 'pageclass_sfx' );
 		</div>
 	<?php } ?>
 <div style="clear:both;"></div>
+	<?php if($this->countModules('right')) { ?>
+    <div id="right">
+		<jdoc:include type="modules" name="right" style="xhtml" />
+	</div>
+	<?php } ?>
 	<?php if($this->countModules('left')) { ?>
 	<div id="left">
 		<jdoc:include type="modules" name="left" style="xhtml" />
@@ -104,11 +109,7 @@ $class = $params->get( 'pageclass_sfx' );
 		<jdoc:include type="component" />
 	</div><!-- Close #body div -->
 
-	<?php if($this->countModules('right')) { ?>
-    <div id="right">
-		<jdoc:include type="modules" name="right" style="xhtml" />
-	</div>
-	<?php } ?>
+	
 <div class="top_return"><a href="#page-top" class="backToTop">Back to top</a></div>
 <div style="clear:both;"></div>
 
