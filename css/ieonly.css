@@ -12,7 +12,6 @@ div.moduletable_search,
 span.logo,
 
 div#left,div#right,
-div#body_3col,
 div.top_return,
 div.centre-name,
 ul.actions,
@@ -34,7 +33,10 @@ div#schoolimage,
 
 /* add overflow:visible to (submit) buttons */
  input, button {overflow:visible;}
- 
+
+#body {
+	max-width: 590px;
+} 
 div.centre-name {
 	margin-top: 10px;
 }

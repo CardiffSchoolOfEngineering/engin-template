@@ -109,7 +109,7 @@ $class = $params->get( 'pageclass_sfx' );
 		<jdoc:include type="component" />
 	</div><!-- Close #body div -->
 
-	
+<div style="clear:both;"></div>	
 <div class="top_return"><a href="#page-top" class="backToTop">Back to top</a></div>
 <div style="clear:both;"></div>
 
