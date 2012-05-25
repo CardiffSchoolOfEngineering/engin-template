@@ -119,8 +119,8 @@ $class = $params->get( 'pageclass_sfx' );
 <ul>
 <li><a href="http://www.cardiff.ac.uk/legals/copyright/index.html">&copy; Cardiff University</a></li>
 <li><a href="http://www.cardiff.ac.uk/accessibility/index.html">Accessibility</a></li>
-<li><a href="http://www.cardiff.ac.uk/help/index.html">Help</a></li>
 <li><a href="http://www.cardiff.ac.uk/contactus/webfeedback/index.html">Feedback</a></li>
+<li><a href="http://www.cardiff.ac.uk/cookies">Cookies</a></li>
 <li><a href="http://www.cardiff.ac.uk/legals/privacy/index.html">Privacy Policy</a></li>
 <li><a href="http://www.cardiff.ac.uk/legals/termsofuse/index.html">Terms of Use</a></li>
 <li><a href="http://www.cardiff.ac.uk/az/index.html">A-Z</a></li>
